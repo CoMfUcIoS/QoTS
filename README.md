@@ -39,7 +39,7 @@ TBD
 
 ### Architecture
 
-![Architecture](./docs/architecture.png)
+![Architecture](./apps/docs/public/architecture.png)
 
 ### Components
 
@@ -67,6 +67,19 @@ Reverse proxy is a tool that allows you to route the traffic to the correct mach
 
 Certbot is a tool that allows you to generate SSL certificates. It is used to generate SSL certificates for the load balancer.
 
+## Whats in this repository?
+
+### CLI
+
+The CLI (`./apps/cli`) is a tool that allows you to install and configure the swarm, the registry, the registry UI, the load balancer and the reverse proxy.
+
+### UI
+
+The UI(`./apps/web`) is a tool that allows you to manage the swarm and the registry.
+
+### Documentation
+
+The documentation(`./apps/docs`) is a tool that allows you to learn how to use the CLI and the UI.
 
 ## Roadmap
 

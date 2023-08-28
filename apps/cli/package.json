@@ -1,0 +1,14 @@
+{
+  "name": "cli",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "make build",
+    "test": "make test-go",
+    "format": "make fmt-go",
+    "lint": "make lint-go"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  }
+}
